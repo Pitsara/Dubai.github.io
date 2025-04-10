@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #000000, #290101, #680101, #3a3101);
+    background: linear-gradient(to bottom, #000000, #290101, #3f0101, #2b0101);
     
     color: #ffffff;
     display: flex;
@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
   }
   
-  .container {
+  .container { 
     width: 100%;
     max-width: 400px;
     background: #fff;
@@ -80,13 +80,14 @@ body {
   }
 .fancy-button {
     display: inline-block;
+    margin-top: 20px;
     padding: 12px 24px;
-    font-size: 18px;
+    font-size: 32px;
     font-weight: bold;
     color: #d0a45c;
     text-decoration: none;
     border-radius: 30px;
-    background: linear-gradient(to bottom, #380000, #510200, #4f5001);
+    background: linear-gradient(to bottom, #1d0101, #0f0100, #141400);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
     animation: bounce 2s infinite ease-in-out, glowTextColor 1s infinite alternate;
     transition: transform 0.2s;
