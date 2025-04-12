@@ -178,3 +178,31 @@ body {
     transform: rotate(-1.5deg) scale(1.03);
   }
 }
+.DB1 {
+  color: #ffffff; /* อักษรสีขาว */
+  text-shadow:
+    0 0 5px #aaffaa,
+    0 0 10px #aaffaa,
+    0 0 20px #55ff55,
+    0 0 40px #55ff55;
+  animation: neonPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes neonPulse {
+  0%, 100% {
+    text-shadow:
+      0 0 5px #aaffaa,
+      0 0 10px #aaffaa,
+      0 0 20px #55ff55,
+      0 0 40px #55ff55;
+    opacity: 1;
+  }
+  50% {
+    text-shadow:
+      0 0 2px #aaffaa,
+      0 0 4px #aaffaa,
+      0 0 8px #55ff55,
+      0 0 16px #55ff55;
+    opacity: 0.6;
+  }
+}
