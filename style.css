@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #e3ba4a, #e3ba4a, #6dd80e, #6dd80e);
-    
+    background: url('img/009.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ body {
     top: 0; left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('img/3.png');
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; /* ขนาดจริงของรูป */
@@ -41,7 +41,7 @@ body {
     top: 0; left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(128, 0, 128, 0.2); /* สีม่วงโปร่ง */
+    background-color: rgba(0, 128, 128, 0.253); /* สีม่วงโปร่ง */
     z-index: 1;
   }
   
